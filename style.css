@@ -1,0 +1,130 @@
+/* CSS Document */
+
+html, body{
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+h1{
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: inherit;
+}
+h2{
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 10px 0px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+input[type="text"], input[type="email"], textarea{
+	display: block;
+	width: 100%;
+	background: none;
+	border: solid 1px #FFF;
+	color: #FFF;
+	padding: 5px;
+	box-sizing: border-box;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size: 1em;
+}
+
+#header{
+	position: fixed;
+	display: block;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #A2A2A2;
+	text-align: center;
+	z-index: 10;
+}
+#header a{
+	color: #FFF;
+	text-decoration: none;
+	margin: 0px 10px;
+	font-weight: bold;
+}
+
+.home{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	text-align: center;
+}
+#logo{
+	position: absolute;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	transform: translateY(-50%);
+}
+#about, #contacto{
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.content{
+	position: relative;
+	display: inline-block;
+	width: 1054px;
+	max-width: 100% !important;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.col{
+	display: inline-block;
+	width: 49%;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+.btn{
+	display: inline-block;
+	border: solid 1px #D3D3D3;
+	color: #D3D3D3;
+	padding: 10px 30px;
+	font-size: 1.2em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+.btn:hover{
+	background: #D3D3D3;
+	color: #FFF;
+}
+#contacto{
+	background: #A2A2A2;
+	color: #FFF;
+}
+#enviar{
+	display: inline-block;
+	border: solid 1px #FFF;
+	color: #FFF;
+	padding: 10px 30px;
+	font-size: 1.2em;background: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+	margin: 20px 0px;
+}
+#enviar:hover{
+	background: #FFF;
+	color: #A2A2A2;
+	cursor: pointer;
+}
